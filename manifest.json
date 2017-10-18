@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "jquery-ui.min.css", "steempay.css" ],
+      "js": [ "jquery-2.1.1.min.js", "jquery-ui.min.js", "steempay.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Pay with Steem Backed Dollars from the browser",
+   "icons": {
+      "128": "128x128_1.png"
+   },
+   "manifest_version": 2,
+   "name": "SteemPay Checkout",
+   "page_action": {
+      "default_icon": {
+         "19": "19x19_1.png",
+         "38": "38x38_1.png"
+      },
+      "default_title": "SteemPay Checkout is active on this page."
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.01",
+   "web_accessible_resources": [ "*.gif", "images/*", "*.png" ]
+}
