@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Netto;
+    src: url('./fonts/netto_ot.ttf');
+}
+
+#steempay-modal {
+    font-family: Netto, 'PT Sans', sans-serif;
+    display: none;
+    text-align: left;
+    font-size: medium;
+    padding: 0;
+    position: relative;
+    overflow: visible;
+    background: #F6F7F9;
+    margin: 0;
+}
+
+/*
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('pageLoader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    background-size: 20vw;
+    text-align: center;
+}
+*/
+
+/* TRANSFER */
+
+.spco-form_wrap {
+    white-space: nowrap;
+    background: #F6F7F9;
+    border-bottom: .5px solid #DDE2E7;
+    height: 60px;
+    width: 100%;
+}
+
+.spco-label {
+    color: #5e666f;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #9EACBA;
+}
+
+.spco-input {
+    outline: none;
+    font-size: 27px;
+    border: none;
+    padding-top: 18px;
+    background: #F6F7F9;
+    line-height: 40px;
+    color: #5e666f;
+    margin: 0px 10px;
+    width: 80%;
+}
+
+/* Overrides */
+
+.ui-widget-content.dialog {
+    padding: 0 !important;
+    border: 0;
+    background: #F6F7F9;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: 0 0 30px 2px rgba(0, 0, 0, .4);
+}
+
+.dialog .ui-dialog-titlebar.ui-widget-header {
+    background: #fff;
+    border-radius: 4px 4px 0px 0px;
+    border: 0;
+    padding: 10px 20px 10px 68px;
+    position: relative;
+}
+
+.dialog .ui-dialog-titlebar.ui-widget-header:before {
+    content: "";
+    background: transparent url("chrome-extension://__MSG_@@extension_id__/images/sp.png") no-repeat center right;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: 20px;
+    top: 4px;
+}
+
+.spco-balance {
+    background: #4BA2F2;
+    border-bottom: 1px solid #FFF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .2);
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.spco-bold {
+    font-weight: 700;
+}
+
+.spco-primary_button {
+    display: block;
+    background: #4BA2F2;
+    border: none;
+    border-radius: 10vw;
+    color: #FFFFFF;
+    width: 20%;
+    margin: 15px auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}

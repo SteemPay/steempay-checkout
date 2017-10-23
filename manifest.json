@@ -1,22 +1,22 @@
 {
    "background": {
-      "scripts": [ "background.js" ]
+      "scripts": [ "js/background.js" ]
    },
    "content_scripts": [ {
-      "css": [ "jquery-ui.min.css", "steempay.css" ],
-      "js": [ "jquery-2.1.1.min.js", "jquery-ui.min.js", "steempay.js" ],
+      "css": [ "css/jquery-ui.min.css", "css/sp.css" ],
+      "js": [ "lib/jquery-2.1.1.min.js", "lib/jquery-ui.min.js", "js/steempay.js" ],
       "matches": [ "\u003Call_urls>" ]
    } ],
    "description": "Pay with Steem Backed Dollars from the browser",
    "icons": {
-      "128": "128x128_1.png"
+      "128": "images/128x128_1.png"
    },
    "manifest_version": 2,
    "name": "SteemPay Checkout",
    "page_action": {
       "default_icon": {
-         "19": "19x19_1.png",
-         "38": "38x38_1.png"
+         "19": "images/19x19_1.png",
+         "38": "images/38x38_1.png"
       },
       "default_title": "SteemPay Checkout is active on this page."
    },
